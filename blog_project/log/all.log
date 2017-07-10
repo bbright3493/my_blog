@@ -1,0 +1,56 @@
+2017-06-20 17:17:49,724 [Dummy-1:12688] [django.db.backends:90] [utils:execute] [DEBUG]- (0.000) 
+            SELECT name, type FROM sqlite_master
+            WHERE type in ('table', 'view') AND NOT name='sqlite_sequence'
+            ORDER BY name; args=None
+2017-06-20 17:17:49,730 [Dummy-1:12688] [django.db.backends:90] [utils:execute] [DEBUG]- (0.001) SELECT "django_migrations"."app", "django_migrations"."name" FROM "django_migrations"; args=()
+2017-06-20 17:17:50,144 [Dummy-1:13676] [django.db.backends:90] [utils:execute] [DEBUG]- (0.001) 
+            SELECT name, type FROM sqlite_master
+            WHERE type in ('table', 'view') AND NOT name='sqlite_sequence'
+            ORDER BY name; args=None
+2017-06-20 17:17:50,148 [Dummy-1:13676] [django.db.backends:90] [utils:execute] [DEBUG]- (0.000) SELECT "django_migrations"."app", "django_migrations"."name" FROM "django_migrations"; args=()
+2017-06-20 17:20:43,688 [Thread-2:13836] [django.server:131] [basehttp:log_message] [INFO]- "GET / HTTP/1.1" 200 15008
+2017-06-20 17:20:44,058 [Thread-3:11416] [django.server:131] [basehttp:log_message] [INFO]- "GET /static/css/base.css HTTP/1.1" 304 0
+2017-06-20 17:20:44,065 [Thread-4:13324] [django.server:131] [basehttp:log_message] [INFO]- "GET /static/css/index.css HTTP/1.1" 304 0
+2017-06-20 17:20:44,069 [Thread-5:1100] [django.server:131] [basehttp:log_message] [INFO]- "GET /static/js/jquery.min.js HTTP/1.1" 304 0
+2017-06-20 17:20:44,069 [Thread-6:11596] [django.server:131] [basehttp:log_message] [INFO]- "GET /static/js/sliders.js HTTP/1.1" 304 0
+2017-06-20 17:20:44,072 [Thread-7:11400] [django.server:131] [basehttp:log_message] [INFO]- "GET /static/js/nav.js HTTP/1.1" 304 0
+2017-06-20 17:20:45,546 [Thread-8:12868] [django.server:131] [basehttp:log_message] [INFO]- "GET /static/images/a1.jpg HTTP/1.1" 304 0
+2017-06-20 17:20:45,548 [Thread-9:12336] [django.server:131] [basehttp:log_message] [INFO]- "GET /static/images/a2.jpg HTTP/1.1" 304 0
+2017-06-20 17:20:45,555 [Thread-10:13820] [django.server:131] [basehttp:log_message] [INFO]- "GET /static/images/a3.jpg HTTP/1.1" 304 0
+2017-06-20 17:20:45,561 [Thread-11:11704] [django.server:131] [basehttp:log_message] [INFO]- "GET /static/images/a4.jpg HTTP/1.1" 304 0
+2017-06-20 17:20:45,625 [Thread-12:6732] [django.server:131] [basehttp:log_message] [INFO]- "GET /static/images/newsbg01.png HTTP/1.1" 304 0
+2017-06-20 17:20:45,631 [Thread-13:11592] [django.server:131] [basehttp:log_message] [INFO]- "GET /static/images/newsbg02.png HTTP/1.1" 304 0
+2017-06-20 17:20:45,641 [Thread-14:9896] [django.server:131] [basehttp:log_message] [INFO]- "GET /static/images/newsbg04.png HTTP/1.1" 304 0
+2017-06-20 17:20:45,641 [Thread-17:14212] [django.server:131] [basehttp:log_message] [INFO]- "GET /static/images/newsbg03.png HTTP/1.1" 304 0
+2017-06-20 17:20:45,674 [Thread-16:9076] [django.server:131] [basehttp:log_message] [INFO]- "GET /static/images/ico_05_1.jpg HTTP/1.1" 304 0
+2017-06-20 17:20:45,678 [Thread-15:11372] [django.server:131] [basehttp:log_message] [INFO]- "GET /static/images/ico_06_1.jpg HTTP/1.1" 304 0
+2017-06-20 17:20:45,678 [Thread-18:12276] [django.server:131] [basehttp:log_message] [INFO]- "GET /static/images/ico_04_1.jpg HTTP/1.1" 304 0
+2017-06-20 17:20:45,690 [Thread-21:13940] [django.server:131] [basehttp:log_message] [INFO]- "GET /static/images/ico_07_1.jpg HTTP/1.1" 304 0
+2017-06-20 17:20:45,696 [Thread-19:14224] [django.server:131] [basehttp:log_message] [INFO]- "GET /static/images/datepng.png HTTP/1.1" 304 0
+2017-06-20 17:20:45,696 [Thread-20:6272] [django.server:131] [basehttp:log_message] [INFO]- "GET /static/images/ph2.png HTTP/1.1" 304 0
+2017-06-20 17:20:45,697 [Thread-22:11708] [django.server:131] [basehttp:log_message] [INFO]- "GET /static/images/icons.png HTTP/1.1" 304 0
+2017-06-20 17:20:45,750 [Thread-23:13628] [django.server:131] [basehttp:log_message] [INFO]- "GET /static/images/slide-bg.png HTTP/1.1" 304 0
+2017-06-20 17:20:45,753 [Thread-24:13736] [django.server:131] [basehttp:log_message] [INFO]- "GET /static/images/silde-nav.png HTTP/1.1" 304 0
+2017-06-20 17:21:24,941 [Thread-26:12984] [django.server:131] [basehttp:log_message] [INFO]- "GET / HTTP/1.1" 200 15008
+2017-06-20 17:21:25,250 [Thread-27:12296] [django.server:131] [basehttp:log_message] [INFO]- "GET /static/css/base.css HTTP/1.1" 304 0
+2017-06-20 17:21:25,269 [Thread-28:9608] [django.server:131] [basehttp:log_message] [INFO]- "GET /static/css/index.css HTTP/1.1" 304 0
+2017-06-20 17:21:25,276 [Thread-30:7900] [django.server:131] [basehttp:log_message] [INFO]- "GET /static/js/nav.js HTTP/1.1" 304 0
+2017-06-20 17:21:25,286 [Thread-31:12848] [django.server:131] [basehttp:log_message] [INFO]- "GET /static/js/sliders.js HTTP/1.1" 304 0
+2017-06-20 17:21:25,292 [Thread-32:12368] [django.server:131] [basehttp:log_message] [INFO]- "GET /static/js/jquery.min.js HTTP/1.1" 304 0
+2017-06-20 17:21:25,716 [Thread-29:12744] [django.server:131] [basehttp:log_message] [INFO]- "GET /static/images/a1.jpg HTTP/1.1" 304 0
+2017-06-20 17:21:25,720 [Thread-33:11780] [django.server:131] [basehttp:log_message] [INFO]- "GET /static/images/a2.jpg HTTP/1.1" 304 0
+2017-06-20 17:21:25,726 [Thread-34:9540] [django.server:131] [basehttp:log_message] [INFO]- "GET /static/images/a3.jpg HTTP/1.1" 304 0
+2017-06-20 17:21:25,730 [Thread-35:12300] [django.server:131] [basehttp:log_message] [INFO]- "GET /static/images/a4.jpg HTTP/1.1" 304 0
+2017-06-20 17:21:25,828 [Thread-36:8244] [django.server:131] [basehttp:log_message] [INFO]- "GET /static/images/newsbg01.png HTTP/1.1" 304 0
+2017-06-20 17:21:25,828 [Thread-37:9368] [django.server:131] [basehttp:log_message] [INFO]- "GET /static/images/newsbg02.png HTTP/1.1" 304 0
+2017-06-20 17:21:25,838 [Thread-38:13096] [django.server:131] [basehttp:log_message] [INFO]- "GET /static/images/newsbg04.png HTTP/1.1" 304 0
+2017-06-20 17:21:25,858 [Thread-39:11452] [django.server:131] [basehttp:log_message] [INFO]- "GET /static/images/newsbg03.png HTTP/1.1" 304 0
+2017-06-20 17:21:25,858 [Thread-40:14012] [django.server:131] [basehttp:log_message] [INFO]- "GET /static/images/ico_04_1.jpg HTTP/1.1" 304 0
+2017-06-20 17:21:25,858 [Thread-41:5280] [django.server:131] [basehttp:log_message] [INFO]- "GET /static/images/ico_06_1.jpg HTTP/1.1" 304 0
+2017-06-20 17:21:25,862 [Thread-42:13120] [django.server:131] [basehttp:log_message] [INFO]- "GET /static/images/ico_05_1.jpg HTTP/1.1" 304 0
+2017-06-20 17:21:25,869 [Thread-43:9400] [django.server:131] [basehttp:log_message] [INFO]- "GET /static/images/ico_07_1.jpg HTTP/1.1" 304 0
+2017-06-20 17:21:25,884 [Thread-44:12716] [django.server:131] [basehttp:log_message] [INFO]- "GET /static/images/ph2.png HTTP/1.1" 304 0
+2017-06-20 17:21:25,891 [Thread-45:3356] [django.server:131] [basehttp:log_message] [INFO]- "GET /static/images/icons.png HTTP/1.1" 304 0
+2017-06-20 17:21:25,894 [Thread-46:14288] [django.server:131] [basehttp:log_message] [INFO]- "GET /static/images/datepng.png HTTP/1.1" 304 0
+2017-06-20 17:21:25,937 [Thread-47:12284] [django.server:131] [basehttp:log_message] [INFO]- "GET /static/images/slide-bg.png HTTP/1.1" 304 0
+2017-06-20 17:21:25,941 [Thread-48:13540] [django.server:131] [basehttp:log_message] [INFO]- "GET /static/images/silde-nav.png HTTP/1.1" 304 0
