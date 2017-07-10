@@ -1,0 +1,3 @@
+2017-07-10 11:28:49,948 [Thread-26:3396] [django.request:152] [base:get_response] [WARNING]- Not Found: /favicon.ico
+2017-07-10 11:28:49,957 [Thread-27:17052] [django.request:152] [base:get_response] [WARNING]- Not Found: /favicon.ico
+2017-07-10 11:28:55,341 [Thread-29:25700] [django.request:152] [base:get_response] [WARNING]- Not Found: /p.html
